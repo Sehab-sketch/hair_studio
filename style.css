@@ -46,7 +46,7 @@
     color: #ffffff;
     border: .5px solid white;
     position: relative;
-    z-index: 1;
+     z-index: 1;
     transition: .5s ;
    
 }
@@ -57,7 +57,7 @@
     position: absolute;
     left: 0px;
     top: 0px;
-     z-index: -1;
+    z-index: -1; 
     background: #ffffff;
     transition: .5s;
 }
@@ -78,7 +78,7 @@
     right: 0;
     top: 0;
     background: #009688;
-     z-index: 2; 
+      z-index: 2; 
 
 }
 
@@ -98,7 +98,7 @@ nav ul li a span{
     position: absolute;
     left: 0px;
     top: 0px;
-     z-index: -1;
+    z-index: -1; 
     background: #ffffff;
     transition: .5s;
 }
@@ -111,7 +111,7 @@ nav ul li a:hover{
     color: black;
 }
 
-.manubtn{
+.menubtn{
     width: 30px;
     height: 25px;
     background: #009688;
@@ -124,7 +124,7 @@ nav ul li a:hover{
     cursor: pointer;
 } 
 
-/* .manubtn img{
+ .menubtn img{
     width: 30px;
     margin-top: 15px;
-} */
+} 
