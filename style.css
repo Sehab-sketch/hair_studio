@@ -51,7 +51,7 @@
    
 }
 
-.banner-btn a span{
+ .banner-btn a span{
     width: 0%;
     height: 100%;
     position: absolute;
@@ -59,26 +59,26 @@
     top: 0px;
     z-index: -1; 
     background: #ffffff;
-    transition: .5s;
-}
+    transition: .5s; 
+} 
 
-.banner-btn a:hover span{
+ .banner-btn a:hover span{
     width: 100%;
 } 
-/* after hover text color */
+ /* after hover text color  */
 
 .banner-btn a:hover{
     color: black;
-}
+} 
 
 .sideNav{
     width: 150px;
-    height: 100vh;
+    height: auto;
     position: fixed;
     right: 0;
     top: 0;
     background: #009688;
-      z-index: 2; 
+    z-index: 2; 
 
 }
 
@@ -92,7 +92,7 @@ nav ul li a{
     color: #ffffff;
 }
 
-nav ul li a span{
+ nav ul li a span{
     width: 0%;
     height: 100%;
     position: absolute;
